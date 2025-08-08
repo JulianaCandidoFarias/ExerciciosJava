@@ -24,10 +24,19 @@ public class Main{
         }
     }
 
-
+    public static void SomaDeImparesMultiplicacaoDePares(){
+        for(int i = 0; i <= 30; i++){
+            if(i % 2 == 0){
+                System.out.println("Multiplicacao de pares ate 30: " + (i * i));
+            }
+            else{
+                System.out.println("Soma de impares ate 30: " + (i + i));
+            }
+        }
+    }
 
     public static void main(String[] args) {
-        NumeroDescrecente(100);
+        SomaDeImparesMultiplicacaoDePares();
     }
 }
 
