@@ -13,8 +13,21 @@ public class Main{
         }
     }
 
+    public static void NumeroDescrecente(int numero){
+        if(numero > 0){
+            for(int i = numero; i > 0; i--){
+                System.out.println("numero: " + i);
+            }
+        }
+        else{
+            System.out.println("Insira um numero maior");
+        }
+    }
+
+
+
     public static void main(String[] args) {
-        MaiorNumero(5, 5);
+        NumeroDescrecente(100);
     }
 }
 
