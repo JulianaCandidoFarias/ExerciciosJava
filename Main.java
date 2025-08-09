@@ -35,8 +35,13 @@ public class Main{
         }
     }
 
+    public static void TrocaNumero(int NumA, int NumB){
+        System.out.println("Numeros trocados de ordem: " + NumB + ", " + NumA);
+    }
+
+
     public static void main(String[] args) {
-        SomaDeImparesMultiplicacaoDePares();
+        TrocaNumero(56,9);
     }
 }
 
