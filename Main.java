@@ -39,9 +39,19 @@ public class Main{
         System.out.println("Numeros trocados de ordem: " + NumB + ", " + NumA);
     }
 
+    public static void ComparaNumero(int Num1, int Num2){
+        if(Num1 == Num2){
+            System.out.println("É Igual");
+        }
+        else{
+            System.out.println("Nao é Igual");
+        }
+
+        MaiorNumero(Num1, Num2);
+    }
 
     public static void main(String[] args) {
-        TrocaNumero(56,9);
+        ComparaNumero(70, 10);
     }
 }
 
